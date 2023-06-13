@@ -19,4 +19,16 @@ console.log(a)
 
 var myVar = 87;
 myVar++; //Incrementing by one.
+myVar--;
 
+/***** 
+ CODE   OUTPUT
+ \'     single quote
+ \"     double quote
+ \\     backslash
+ \n     newline
+ \r     carriage return
+ \t     tab
+ \b     backspace
+ \f     form feed
+ *****/
