@@ -16,3 +16,7 @@ var b = 2; //declaration and assigning
 b = a;
 
 console.log(a)
+
+var myVar = 87;
+myVar++; //Incrementing by one.
+
