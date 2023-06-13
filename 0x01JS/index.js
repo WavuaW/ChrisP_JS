@@ -11,5 +11,8 @@ let ourName = "freeCodeCamp" //within the scope in which you declare with let
 
 const pi = 3.14 //variable that should never change
 
-var a;
-var b = 2;
+var a; //declare
+var b = 2; //declaration and assigning
+b = a;
+
+console.log(a)
