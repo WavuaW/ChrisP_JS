@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chris Wavua</title>
+    <style>
+        /* Blue theme */
+        body {
+            background-color: #87CEFA;
+            color: #000080;
+        }
+        h1 {
+            color: #000080;
+        }
+        input[type="submit"] {
+            background-color: #000080;
+            color: white;
+        }
+        /* Additional styling for form and input fields */
+        form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000080;
+            border-radius: 10px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #000080;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chris Wavua</h1>
+    <form id="request-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+        <br>
+        <input type="submit" value="Submit Request" onclick="submitRequest()">
+    </form>
+
+    <script>
+        // Form submission function
+        function submitRequest() {
+            // Get form input values
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var message = document.getElementById("message").value;
+
+            // Send form input values to server for processing
+            fetch('/submit-request', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: name, email: email, phone: phone, message: message })
+            })
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    // Display message to user based on server response
+                    if (data.success) {
+                        alert("Thank you for your request. Chris will be in touch soon.");
+                    } else {
+                        alert("There was an error with your request. Please try again later.");
+                    }
+                });
+        }
+    </script>
+</body>
+</html>
