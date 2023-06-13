@@ -10,3 +10,6 @@ myName = 8
 let ourName = "freeCodeCamp" //within the scope in which you declare with let
 
 const pi = 3.14 //variable that should never change
+
+var a;
+var b = 2;
