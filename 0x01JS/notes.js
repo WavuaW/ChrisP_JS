@@ -32,3 +32,6 @@ myVar--;
  \b     backspace
  \f     form feed
  *****/
+
+ // Strings are immutable.
+ 
