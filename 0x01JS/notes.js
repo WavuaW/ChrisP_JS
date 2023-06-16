@@ -38,4 +38,10 @@ myVar--;
  var firstName = "Ada";
  var lastLetterOfFirstName = firstName[firstName.length -1];
 
+ // Selecting an element from an array of arrays,
+ var myArray = [[1,2,3], [4,5,6]. [7,8,9]]
+
+ // Accessing elements 
+ var myData = myArray[0][0];
+
  
