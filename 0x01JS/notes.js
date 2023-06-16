@@ -34,4 +34,8 @@ myVar--;
  *****/
 
  // Strings are immutable.
+ // String Indexing - 0 index
+ var firstName = "Ada";
+ var lastLetterOfFirstName = firstName[firstName.length -1];
+
  
