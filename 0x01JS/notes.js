@@ -43,3 +43,7 @@ myVar--;
 
  // Accessing elements 
  var myData = myArray[0][0];
+
+ var myArray = [['John', 23], ['cat', 2]]
+
+ myArray.push(["dog", 13])
