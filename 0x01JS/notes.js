@@ -53,3 +53,6 @@ myVar--;
 
  // shift removes the first element.
  var removed = ourArray.shift()
+
+ // umshift adds an element at the beginning of the array.
+ ourArray.unshift('Happy')
