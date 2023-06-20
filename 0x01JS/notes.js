@@ -47,3 +47,6 @@ myVar--;
  var myArray = [['John', 23], ['cat', 2]]
 
  myArray.push(["dog", 13])
+
+ var ourArray = [1,2,3]
+ var removed = ourArray.pop()
