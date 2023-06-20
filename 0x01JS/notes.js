@@ -50,3 +50,6 @@ myVar--;
 
  var ourArray = [1,2,3]
  var removed = ourArray.pop()
+
+ // shift removes the first element.
+ var removed = ourArray.shift()
