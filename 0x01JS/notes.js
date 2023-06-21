@@ -56,3 +56,9 @@ myVar--;
 
  // umshift adds an element at the beginning of the array.
  ourArray.unshift('Happy')
+
+ function ourReusableFunction(){
+    console.log("Hello, World")
+ };
+
+ ourReusableFunction();
