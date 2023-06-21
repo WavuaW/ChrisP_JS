@@ -62,3 +62,9 @@ myVar--;
  };
 
  ourReusableFunction();
+
+ function ourData(a, b){
+    console.log(a - b)
+ };
+
+ ourData(5, 4);
