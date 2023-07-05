@@ -7,4 +7,4 @@ myLocalScope();
 
 console.log(myVar)
 
-//in the case where a global variable and the local variable have the same names the local variable takes precidence over the global variable and what is outputed falls within the scope of the local variable.
+//in the case where a global variable and the local variable have the same names the local variable takes precidence over the global variable and what is outputed falls within the scope of the local variable. However this only happens when we are calling the output of the function in which the variable is local to.
