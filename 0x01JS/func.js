@@ -1,7 +1,7 @@
 var myGlobal = 10;
 
 function func1(){
-
+    oopsGlobal = 5;
 }
 
 function func2(){
