@@ -1,11 +1,11 @@
 function testStrict(val) {
-    if (val) {
+    if (val === 7) {
         return "Equal";
     }
     return "Not Equal"
 }
 
-console.log(testStrict(10))
+console.log(testStrict('7'))
 
 /*
 the == operator attempts to convert the two options to the same type 
