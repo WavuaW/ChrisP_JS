@@ -5,7 +5,7 @@ function testStrict(val) {
     return "Not Equal"
 }
 
-console.log(testStrict('7'))
+console.log(testStrict('7'));
 
 /*
 the == operator attempts to convert the two options to the same type 
