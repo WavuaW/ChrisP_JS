@@ -5,4 +5,4 @@ function testEqual(val) {
     return "Not Equal";
 }
 
-testEqual(9);
+console.log(testEqual(9));
