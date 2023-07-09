@@ -9,3 +9,5 @@ function testElseIf(val) {
 }
 
 testElseIf(7);
+
+//be sure to check out the logical order of the statements as the moment the first condition is met the rest of the conditions will not be checked for
