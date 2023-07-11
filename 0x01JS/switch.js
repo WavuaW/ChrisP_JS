@@ -15,6 +15,8 @@ function caseInSwitch(val) {
         case 4:
             answer = 'delta';
             break;
+        default:
+            answer = "Oppenhiemer"
     }
 
     return answer;
