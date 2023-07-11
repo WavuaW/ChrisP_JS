@@ -22,4 +22,4 @@ function caseInSwitch(val) {
     return answer;
 }
 
-caseInSwitch(1);
+console.log(caseInSwitch(1));
