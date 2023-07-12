@@ -5,3 +5,4 @@ var ourDog = {
     "friends": ["everything"]
 };
 
+var tail = ourDog.tails;
