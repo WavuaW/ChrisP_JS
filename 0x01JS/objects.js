@@ -6,6 +6,7 @@ var ourDog = {
 };
 
 ourDog.name = 'Happy Camper' //dot notation in updating oblect properties
+ourDog.bark = "bow-wow" //addinf a new property with the dot notation
 
 var tail = ourDog.tails;
 var legs = ourDog["legs"]; //Brakect notation is required if the property name has a space in it like 'an entree'
