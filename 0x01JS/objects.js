@@ -6,3 +6,4 @@ var ourDog = {
 };
 
 var tail = ourDog.tails;
+var legs = ourDog["legs"]; //Brakect notation is required if the property name has a space in it like 'an entree'
