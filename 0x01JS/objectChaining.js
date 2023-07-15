@@ -10,4 +10,4 @@ var myStorage = {
     }
 }
 
-var gloveBoxContents = myStorage.car.inside;
+var gloveBoxContents = myStorage.car.inside["glove box"];
