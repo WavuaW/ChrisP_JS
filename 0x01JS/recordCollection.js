@@ -40,6 +40,7 @@ function updateRecords(id, prop, value) {
     return collection;
 }
 
+updateRecords(2549, "tracks", "test")
 console.log(updateRecords(2551, "artist", ABBA));
     
 
