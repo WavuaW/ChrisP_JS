@@ -6,4 +6,14 @@ function randomWholeNum() {
     return Math.random();
 }
 
-console.log(randomWholeNum)
+randomWholeNum
+
+function ourRandomRange(ourMin, ourMax) {
+
+    return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
+}
+
+var myRandom = ourRandomRange(1, 9)
+
+console.log(myRandom)
+
