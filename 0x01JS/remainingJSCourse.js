@@ -23,3 +23,14 @@ function editInPlace() {
 }
 
 editInPlace();
+
+//using Object.freeze()
+
+function freezeObj() {
+    'use strict';
+    const MATH_CONSTANTS = {
+        PI: 3.14
+    };
+
+    Object.freeze(MATH_CONSTANTS);
+}
