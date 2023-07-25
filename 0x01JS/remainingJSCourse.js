@@ -45,3 +45,14 @@ const magic = () => new Date();
 
 const myConcat = (arr1, arr2) => arr1.concat(arr2);
 
+//higher order arrow functions
+
+const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
+
+const squareList = (arr) => {
+    const squareIntegers = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x); //if you have a single argument you don't need to have parenthesis around your argument
+    return squareIntegers;
+};
+
+const squareIntegers = squareList(realNumberArray);
+console.log(squareIntegers)
