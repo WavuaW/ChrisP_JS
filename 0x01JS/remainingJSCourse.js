@@ -11,3 +11,15 @@ function checkSign(num) {
 //use let to ensure that your variable stays where you defined it in
 //you cannot reasign a const
 //you can use const with capital. const SENTENCE
+//mutate an arrray that has const
+const s = [5, 7, 2];
+function editInPlace() {
+    "use strict";
+
+    //s = [2, 5, 7];
+    s[0] = 2;
+    s[1] = 7;
+    s[2] = 7;
+}
+
+editInPlace();
