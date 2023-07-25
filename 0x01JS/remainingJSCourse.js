@@ -34,3 +34,12 @@ function freezeObj() {
 
     Object.freeze(MATH_CONSTANTS);
 }
+//creatig anonymous functions, you can convert it to an arrow function
+var magic = function() {
+    return new Date();
+};
+
+//with the arrow function this is reduced to.
+
+const magic = () => new Date();
+
