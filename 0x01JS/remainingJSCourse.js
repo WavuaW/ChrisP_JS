@@ -10,3 +10,4 @@ function checkSign(num) {
 //the scope of let is limited to the block it was declared.
 //use let to ensure that your variable stays where you defined it in
 //you cannot reasign a const
+//you can use const with capital. const SENTENCE
