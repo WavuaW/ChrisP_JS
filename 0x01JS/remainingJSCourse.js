@@ -54,6 +54,7 @@ const squareList = (arr) => {
     return squareIntegers;
 };
 
+
 const squareIntegers = squareList(realNumberArray);
 console.log(squareIntegers)
 
