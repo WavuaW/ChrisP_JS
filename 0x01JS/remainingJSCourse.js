@@ -53,8 +53,6 @@ const squareList = (arr) => {
     const squareIntegers = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x); //if you have a single argument you don't need to have parenthesis around your argument
     return squareIntegers;
 };
-
-
 const squareIntegers = squareList(realNumberArray);
 console.log(squareIntegers)
 
