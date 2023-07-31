@@ -7,7 +7,7 @@ const stats = {
     average: 35.85
 };
 const half = (function() {
-    return function half{ max, min} {
+    return function half({ max, min }) {
         return (max + min) / 2.0;
     };
 })();
