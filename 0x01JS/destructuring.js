@@ -6,5 +6,5 @@ var y = voxel.y;
 var z = voxel.z;
 
 //new way of destructuring
-const { x : a, y: b, z : c } = voxel;
+const { x : a, y: b, z : c } = voxel; //this means. get the value of x,y,z from voxel and assign it to a,b,c
 
