@@ -1,4 +1,4 @@
-// const { readFile } = require("fs").promises
+const { readFile } = require("fs").promises
 
 // console.log('hello World')
 
@@ -26,7 +26,20 @@
 
 // console.log('do this ASAP')
 
-const myModule = require('./my-modules')
+// const myModule = require('./my-modules')
 
-console.log(myModule)
+// console.log(myModule)
 
+const express = require('express');
+const { read } = require("fs");
+
+const app = express()
+
+app.get('/', (request, response) => {
+    readFile('/home.html', 'utf8', (err, html) => {
+        if (err) {
+            response.status(500)
+        }
+        response.send(html);
+    })
+});
