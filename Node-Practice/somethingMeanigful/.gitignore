@@ -1,0 +1,28 @@
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore environment variable files
+.env
+
+# Ignore log files and log rotation files
+*.log
+*.log.*
+
+# Ignore macOS .DS_Store files
+.DS_Store
+
+# Ignore build artifacts or distribution files
+dist/
+build/
+
+# Ignore code coverage directories
+coverage/
+.nyc_output/
+
+# Include package lock files (recommended)
+# Uncomment the following lines if you want to include package lock files
+# package-lock.json
+# yarn.lock

@@ -1,4 +1,4 @@
-const { readFile } = require("fs").promises
+// const { readFile } = require("fs").promises
 
 // console.log('hello World')
 
@@ -20,9 +20,13 @@ const { readFile } = require("fs").promises
 // eventEmitter.emit('lunch');
 // eventEmitter.emit('lunch');
 
-readFile('./hello.txt', 'utf-8', (err, txt) => {
-    console.log(txt)
-});
+// readFile('./hello.txt', 'utf-8', (err, txt) => {
+//     console.log(txt)
+// });
 
-console.log('do this ASAP')
+// console.log('do this ASAP')
+
+const myModule = require('./my-modules')
+
+console.log(myModule)
 
